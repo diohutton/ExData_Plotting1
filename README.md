@@ -1,3 +1,23 @@
+## Project Output
+
+This repository contains the completed R scripts and completed PNG output files as described in the Introduction section below.
+
+
+***Included R Scripts:***
+
+| File        | Description           
+| ------------- |:-------------:| 
+| plot1.R | Function to create a bar graph of Global Active Power |
+| plot2.R | Function to create a line plot of Global Active Power |
+| plot3.R | Function to create line plots of three metering variables |
+| plot4.R | Function to create 4 graph plots of variable measurements |
+| calculateSkipRows.R | Helper function that calculates how many rows to skip from source file |
+
+***Pre-requisites:***
+This project requires the following packages to be installed before execution:
+
+ - `library(lubridate)` 
+
 ## Introduction
 
 This assignment uses data from
@@ -34,9 +54,6 @@ web site</a>:
 </ol>
 
 ## Loading the data
-
-
-
 
 
 When loading the dataset into R, please consider the following:
